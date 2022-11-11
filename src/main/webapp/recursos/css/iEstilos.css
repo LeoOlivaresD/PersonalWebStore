@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+h1 {
+  font-size: 5vw;
+  color: rgba(243, 242, 242);
+  text-align: center;
+  /* margin-left: 10px; */
+  background: linear-gradient(rgb(231, 88, 5), rgb(243, 243, 245));
+  -webkit-background-clip: text;
+  color: transparent;
+}
+body {
+  background-size: auto;
+  background-image: url("https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/1200/public/media/image/2020/02/lenguaje-programacion-1859691.jpg?itok=m--F6UIs");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: sans-serif;
+  color: #ffffff;
+  width: 90%;
+  max-width: 100%;
+  font-size: 1.5rem;
+}
+
+.menu{
+  display: flex;
+  color: #ffffff;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  max-width: 100%;
+  font-size: 1vw
+  
+}
+.emenu{
+  font-size: 250%;
+  color: #ffffff;
+  margin: 10px;
+  max-width: 100%;
+}
+
+main dl dt {
+  font-family: sans-serif;
+  color: #ffffff;
+  font-size: 30xp;
+  width: 100%;
+}
+.ancho {
+  width: 20%;
+  max-width: 100%;
+  margin: 10px;
+}
+.formulario {
+  padding: 80px;
+  width: 20%;
+  max-width: 100%;
+  height: auto;
+  font-size: 2vw;
+}
+@media screen and (max-width: 600px) {
+  body p {
+    font-size: 16px;
+    width: 100%;
+    background-size: auto;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+  .emenu{
+    font-size: 5px;
+    margin: auto;
+
+  }
+}
+
+@media screen and (min-width: 600px) {
+  body p {
+    font-size: 16px;
+    width: 100%;
+    background-size: auto;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+  .emenu{
+    font-size: 16px;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 768px) {
+  body p {
+    font-size: 16px;
+    width: 100%;
+    background-size: auto;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+  .emenu{
+    font-size: 16px;
+    margin: auto;
+  }
+}
+  
+
+@media screen and (max-width: 992px) {
+  body p {
+    font-size: 16px;
+    width: 100%;
+    background-size: auto;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+}
+@media screen and (max-width: 1200px) {
+  body p {
+    font-size: 16px;
+    width: 100%;
+    background-size: auto;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+}

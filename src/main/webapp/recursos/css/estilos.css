@@ -1,0 +1,29 @@
+body {
+    background-image: url(https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/1200/public/media/image/2020/02/lenguaje-programacion-1859691.jpg?itok=m--F6UIs);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  .plug {
+    width: 30%;
+  }
+  #titulo {
+    font-size: 3rem;
+    text-align: center;
+  }
+#menu{
+font-size: 1.3rem;
+}
+
+main p {
+font-size: 1.2rem;
+}
+
+.centrar {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100%;
+}
