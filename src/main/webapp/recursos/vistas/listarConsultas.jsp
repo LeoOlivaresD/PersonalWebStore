@@ -19,7 +19,7 @@
     <h1>Consultas realizadas por visitantes</h1>
 </div>
 <%--Menu--%>
-<div class="container">
+<div class="container row col-12 justify-content-center">
     <nav>
         <%@include file="menu.jsp" %>
     </nav>

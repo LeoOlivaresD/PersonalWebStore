@@ -8,17 +8,21 @@
 
     <security:http auto-config="true">
         <security:intercept-url pattern="/" access="permitAll()"/>
-        <security:intercept-url pattern="/contacto" access="hasAnyAuthority('ADMIN')"/>
-        <security:intercept-url pattern="/usuario/listar" access="hasAnyAuthority('ADMIN')"/>
+        <security:intercept-url pattern="/formulario/listar" access="hasAnyAuthority ('ADMIN')"/>
+        <security:intercept-url pattern="/usuario/listar" access="hasAnyAuthority ('ADMIN')"/>
+        <security:intercept-url pattern="/galeria" access="hasAnyAuthority ('ADMIN','USUARIO')"/>
+        <security:form-login login-page="/login" authentication-failure-url="/error"
+        username-parameter="username" password-parameter="password"/>
+        <security:csrf disabled="true"/>
+        <security:logout logout-success-url="/"/>
     </security:http>
 
     <security:authentication-manager>
         <security:authentication-provider>
             <security:password-encoder hash="bcrypt"/>
-            <security:user-service>
-                <security:user name="user" authorities="ADMIN"
-                               password="$2a$10$nx3UX8BgULtQxc1.Rernpek/D4j/SCotScTs3Y8s8eaTeOUHd8RGq"/>
-            </security:user-service>
+            <security:jdbc-user-service data-source-ref="ds"
+            users-by-username-query="select username as username, password, 1 as enabled from rol where username = ?"
+            authorities-by-username-query="SELECT username as username, rol as authority from rol where username = ?"/>
         </security:authentication-provider>
     </security:authentication-manager>
 </beans>

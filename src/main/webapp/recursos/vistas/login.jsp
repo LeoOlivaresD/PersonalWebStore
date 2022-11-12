@@ -30,17 +30,26 @@
 <main>
     <section>
         <div class="container justify-content-center">
-            <form method="post">
+            <%
+                String error = (String)request.getAttribute("error");
+                if (error != null && error.equals("true")){
+                    out.println("<h3 class='alert alert-danger text-center'>Error de autentificacion</h3>");
+                }
+            %>
+            <form action="${pageContext.request.contextPath}/login" method="post">
                 <div class="form-group text-white">
-                    <label for="user">User Name</label>
-                    <input type="text" class="form-control" name="usuario" id="user">
+                    <label for="username">Nombre usuario</label>
+                    <input type="text" class="form-control" name="username" id="username">
 
                 </div>
                 <div class="form-group text-white">
-                    <label for="password">Password</label>
+                    <label for="password">Contraseña</label>
                     <input type="password" name="password" class="form-control" id="password">
                 </div>
                 <button type="submit" class="btn btn-primary">Iniciar Sesion </button>
+                <%--<div class="form-group text-white">
+                    <label id="errorLbl" style="display: none">Error de login</label>
+                </div>--%>
             </form>
         </div>
     </section>
