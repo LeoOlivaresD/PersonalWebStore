@@ -16,9 +16,6 @@
     <li class="nav-item">
         <a class="nav-link Inicio text-white" href="${pageContext.request.contextPath}/usuario/crear">Registrarse</a>
     </li>
-    <li class="nav-item">
-        <a class="nav-link Inicio text-white" href="${pageContext.request.contextPath}/usuario/listar">Ver Lista Usuario</a>
-    </li>
     <li class="nav-item dropdown">
         <a
                 class="nav-link dropdown-toggle text-white bg-primary"
@@ -29,7 +26,6 @@
                 aria-expanded="false"
         >Tipos de Web</a
         >
-        <!-- aca debemos anexar con los servlet y NO con los JSP -->
         <div class="dropdown-menu bg-primary">
             <a class="dropdown-item text-white" href="${pageContext.request.contextPath}/tiposDeWebs"
             >Web institucional</a
@@ -45,11 +41,24 @@
             >
         </div>
     </li>
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle text-white bg-primary"
+                data-toggle="dropdown"
+                href="#"
+                role="button"
+                aria-haspopup="true"
+                aria-expanded="false">Registros</a>
+        <div class="dropdown-menu bg-primary">
+            <a class="dropdown-item text-white" href="${pageContext.request.contextPath}/usuario/listar">lista Usuarios</a>
+            <a class="dropdown-item text-white" href="${pageContext.request.contextPath}/formulario/listar"
+            >Lista consultas /comentarios</a>
+        </div>
+    </li>
     <li class="nav-item">
         <a class="nav-link text-white" href="${pageContext.request.contextPath}/galeria">Galeria</a>
     </li>
     <li class="nav-item">
-        <a class="nav-link text-white" href="${pageContext.request.contextPath}/contacto">Contacto</a>
+        <a class="nav-link text-white" href="${pageContext.request.contextPath}/formulario/crear">Contacto</a>
     </li>
     <li class="nav-item">
         <a

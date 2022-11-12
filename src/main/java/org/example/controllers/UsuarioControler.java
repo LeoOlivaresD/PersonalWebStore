@@ -23,7 +23,7 @@ public class UsuarioControler {
     public ModelAndView mostrarUsuarios() {
         ModelAndView model = new ModelAndView();
         List<RegistroUsuario> usuarios = usuarioService.readAll();
-        model.addObject("usuarios", usuarios);  //el attribute debe ser el mismo nombre que declaramos en la vista de listar User especificamente en c:items osea usuarios
+        model.addObject("usuarios", usuarios);  //el attribute debe ser el mismo nombre que declaramos en la vista de listar User especificamente en c:items osea usuarios y en la var debe ser el objeto declarado al igual que en los c:out
         model.setViewName("listarUser");
         return model;
     }

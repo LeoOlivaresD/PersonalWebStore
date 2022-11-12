@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:security="http://www.springframework.org/schema/security"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/security
+       https://www.springframework.org/schema/security/spring-security.xsd">
+
+    <security:http auto-config="true">
+        <security:intercept-url pattern="/" access="permitAll()"/>
+        <security:intercept-url pattern="/contacto" access="hasAnyAuthority('ADMIN')"/>
+        <security:intercept-url pattern="/usuario/listar" access="hasAnyAuthority('ADMIN')"/>
+    </security:http>
+
+    <security:authentication-manager>
+        <security:authentication-provider>
+            <security:password-encoder hash="bcrypt"/>
+            <security:user-service>
+                <security:user name="user" authorities="ADMIN"
+                               password="$2a$10$nx3UX8BgULtQxc1.Rernpek/D4j/SCotScTs3Y8s8eaTeOUHd8RGq"/>
+            </security:user-service>
+        </security:authentication-provider>
+    </security:authentication-manager>
+</beans>
