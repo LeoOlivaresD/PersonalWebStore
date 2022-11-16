@@ -7,20 +7,20 @@
 <head>
     <title>Contactanos</title>
 
-    <link
-            rel="stylesheet"
+    <link rel="stylesheet"
             href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
             integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
-            crossorigin="anonymous"
-    />
+            crossorigin="anonymous"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <!--Animaciones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <!-- COLOR DE FONDO CON CSS -->
     <link rel="stylesheet" href="${pageContext.request.contextPath}/res/css/estilos.css"/>
 </head>
 <body>
 <!-- TITULO DE CONTACTO -->
 <header>
-    <h1 class="text-white text-center">
+    <h1 class="text-white text-center animate__animated animate__bounce">
         <b
         >Bienvenido, deseas preguntar algo?</b
         >

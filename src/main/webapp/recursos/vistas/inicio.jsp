@@ -10,6 +10,8 @@
             crossorigin="anonymous"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <!--Animaciones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <!-- COLOR DE FONDO CON CSS -->
     <link rel="stylesheet" href="${pageContext.request.contextPath}/res/css/estilos.css"/>
 </head>
@@ -21,13 +23,13 @@
         <div
                 class="container mx-auto row col-12 text-white justify-content-center"
         >
-            <h1 id="titulo"><b>BIENVENIDO A PERSONAL WEB STORE</b></h1>
+            <h1 class="animate__animated animate__delay-1s animate__pulse" id="titulo"><b>BIENVENIDO A PERSONAL WEB STORE</b></h1>
 
         </div>
     </div>
     <br/>
     <!-- DESCRIPCION DE LA WEB -->
-    <div class="container mx-auto row text-white justify-content-center" style="text-align: center">
+    <div class="container mx-auto row text-white justify-content-center animate__animated animate__slow animate__zoomIn" style="text-align: center">
         <p>
             Mi nombre es Leonardo Olivares, soy fundador de "Personal Web Store" y a traves de ella te voy a ayudar
             a llevar tu negocio o pequeña empresa a otro nivel
@@ -67,32 +69,32 @@
             las mejores tecnologías del mercado para asegurar un exito seguro.
         </p>
     </div>
-    <section>
+    <section >
         <!-- IMAGENES DE EJEMPLO DE DISEÑOS WEB -->
         <br/>
         <div class="container row mx-auto">
-            <div class="col-6 col-sm-3">
+            <div class="col-6 col-sm-3 animate__animated animate__slower  animate__flip">
                 <img
                         src="https://i.ibb.co/VJPj9Tn/kisspng-online-shopping-computer-icons-e-commerce-business-online-shop-5ac3868fc83cc3-97194906152276.png"
                         class="img-fluid"
                         alt="Responsive image"
                 />
             </div>
-            <div class="col-6 col-sm-3">
+            <div class="col-6 col-sm-3 animate__animated animate__slower animate__delay-1s  animate__flip">
                 <img
                         src="https://i.ibb.co/R9Vpk1f/tienda-online-para-principiantes-1-removebg-preview.png"
                         class="img-fluid"
                         alt="Responsive image"
                 />
             </div>
-            <div class="col-6 col-sm-3">
+            <div class="col-6 col-sm-3 animate__animated animate__slower animate__delay-2s  animate__flip">
                 <img
                         src="https://i.ibb.co/48fxykp/ecommerce-removebg-preview.png"
                         class="img-fluid"
                         alt="Responsive image"
                 />
             </div>
-            <div class="col-6 col-sm-3">
+            <div class="col-6 col-sm-3 animate__animated animate__slower animate__delay-3s  animate__flip">
                 <img
                         src="https://i.ibb.co/mD1Nx3n/tienda-online-removebg-preview.png"
                         class="img-fluid"
