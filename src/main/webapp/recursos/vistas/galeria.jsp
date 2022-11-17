@@ -17,6 +17,8 @@
             crossorigin="anonymous"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <!--Animaciones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <!-- COLOR DE FONDO CON CSS -->
     <link rel="stylesheet" href="${pageContext.request.contextPath}/res/css/estilos.css"/>
     <!-- Estilos Carrusel -->
@@ -24,17 +26,17 @@
 </head>
 <body>
 <header>
-    <h1 class="text-white text-center"><b>Algunos de nuestros diseños</b></h1>
+    <h1 class="text-white text-center img-fluid animate__animated animate__zoomIn animate__slow"><b>Algunos de nuestros diseños</b></h1>
 </header>
 <hr>
 <br/>
 
-<div class="container row col-12 justify-content-center">
+<div class="container row col-12 justify-content-center animate__animated animate__slideInLeft animate__slow">
     <%@include file="menu.jsp"%>
 </div>
 <hr/>
 <br/>
-<div id="contenedor-slider" class="contenedor-slider">
+<div id="contenedor-slider" class="contenedor-slider img-fluid animate__animated animate__zoomIn animate__slow">
     <div id="slider" class="slider">
         <section class="slider__section"><img
                 src="https://i.ibb.co/R9TxQ48/cdd8f89178883ca13123200d47de10f5c919f20c25f2fdeaa0c75f6fe40db8af.jpg"

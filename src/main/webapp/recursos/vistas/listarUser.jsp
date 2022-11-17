@@ -8,16 +8,17 @@
             rel="stylesheet"
             href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
             integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
-            crossorigin="anonymous"
-    />
+            crossorigin="anonymous"/>
+    <!--Animaciones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="${pageContext.request.contextPath}/res/css/estilos.css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
 </head>
 <body>
-<div class="container text-white text-center">
+<div class="container text-white text-center animate__animated animate__zoomIn animate__slow">
     <h1>Usuarios registrados en base </h1>
 </div>
-<div class="container row col-12 justify-content-center">
+<div class="container row col-12 justify-content-center animate__animated animate__slideInLeft animate__slow">
     <nav>
         <%@include file="menu.jsp" %>
     </nav>

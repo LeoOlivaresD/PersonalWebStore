@@ -26,11 +26,11 @@ function moverI() {
 		slider.css('margin-left', '-'+100+'%');
 	});
 }
-
+//timeout 2000 serian 2seg
 function autoplay() {
 	interval = setInterval(function(){
 		moverD();
-	}, 5000);
+	}, 2000);
 }
 
 siguiente.on('click',function() {

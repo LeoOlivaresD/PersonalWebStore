@@ -20,7 +20,7 @@
 <header>
     <div class="container">
         <div class="container mx-auto row col-12 text-white justify-content-center">
-            <h1 class="animate__animated animate__slow animate__pulse" id="titulo"><b>BIENVENIDO A PERSONAL WEB STORE</b></h1>
+            <h1 class="animate__animated animate__slow animate__zoomIn" id="titulo"><b>BIENVENIDO A PERSONAL WEB STORE</b></h1>
         </div>
     </div>
     <br/>
@@ -36,7 +36,7 @@
 
 <!-- MENU DE NAVEGACION -->
 <br/>
-<div class="container row col-12 justify-content-center">
+<div class="container row col-12 justify-content-center animate__animated animate__slideInLeft animate__slow">
     <%@include file="menu.jsp" %>
 </div>
 
@@ -48,7 +48,7 @@
     <div class="container row mx-auto text-white justify-content-center">
         <br/>
         <p class="col-12">
-            Nuestra compañia se encarga de hacer publicidad a tu proyecto para
+            Nuestra compañia se encarga de llevar  tu proyecto a la red para
             que este tenga mayor visibilidad en el mercado.
         </p>
 
@@ -69,25 +69,25 @@
         <!-- IMAGENES DE EJEMPLO DE DISEÑOS WEB -->
         <br/>
         <div class="container row mx-auto">
-            <div class="col-6 col-sm-3 animate__animated animate__slower  animate__flip">
+            <div class="col-6 col-sm-3 animate__animated animate__slow  animate__flip">
                 <img
                         src="https://i.ibb.co/VJPj9Tn/kisspng-online-shopping-computer-icons-e-commerce-business-online-shop-5ac3868fc83cc3-97194906152276.png"
                         class="img-fluid"
                         alt="Responsive image"/>
             </div>
-            <div class="col-6 col-sm-3 animate__animated animate__slower animate__delay-1s  animate__flip">
+            <div class="col-6 col-sm-3 animate__animated animate__slow animate__delay-1s  animate__flip">
                 <img
                         src="https://i.ibb.co/R9Vpk1f/tienda-online-para-principiantes-1-removebg-preview.png"
                         class="img-fluid"
                         alt="Responsive image"/>
             </div>
-            <div class="col-6 col-sm-3 animate__animated animate__slower animate__delay-2s  animate__flip">
+            <div class="col-6 col-sm-3 animate__animated animate__slow animate__delay-2s  animate__flip">
                 <img
                         src="https://i.ibb.co/48fxykp/ecommerce-removebg-preview.png"
                         class="img-fluid"
                         alt="Responsive image"/>
             </div>
-            <div class="col-6 col-sm-3 animate__animated animate__slower animate__delay-3s  animate__flip">
+            <div class="col-6 col-sm-3 animate__animated animate__slow animate__delay-3s  animate__flip">
                 <img
                         src="https://i.ibb.co/mD1Nx3n/tienda-online-removebg-preview.png"
                         class="img-fluid"

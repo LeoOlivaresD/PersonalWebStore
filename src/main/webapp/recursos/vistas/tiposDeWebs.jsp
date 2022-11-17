@@ -1,17 +1,15 @@
-
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
     <title>Tipos de paginas web</title>
-
     <link
             rel="stylesheet"
             href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
             integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
-            crossorigin="anonymous"
-    />
-
+            crossorigin="anonymous"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <!--Animaciones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <!-- COLOR DE FONDO CON CSS -->
     <link rel="stylesheet" href="${pageContext.request.contextPath}/res/css/estilos.css"/>
 </head>
@@ -19,18 +17,16 @@
 <div>
     <div class="container">
         <div class="row col justify-content-center text-center">
-            <h1>
-                <b class="text-white"
-                >Porque nosotros nos adaptamos a tu necesidad, elige el mejor
-                    tipo de web que se acomode a tu proyecto</b
-                >
+            <h1 class="text-white animate__animated animate__zoomIn animate__slow">
+                Porque nosotros nos adaptamos a tu necesidad, elige el mejor
+                tipo de web que se acomode a tu proyecto
             </h1>
         </div>
     </div>
     <!-- MENU NAVEGACION -->
     <br/>
     <br/>
-    <div class="container row col-12 justify-content-center">
+    <div class="container row col-12 justify-content-center animate__animated animate__slideInLeft animate__slow">
         <%@include file="menu.jsp" %>
     </div>
     <!-- TIPOS DE PAGINAS WEBS -->
@@ -45,8 +41,9 @@
             <div class="row">
                 <div class="col-4 border bg-primary">
                     <div class="my-3">
-                        <img id="zoom1" src="https://i.ibb.co/0KVpNw1/animeflv.png" class="img-fluid" alt="Responsive image"
-                        >
+                        <img src="https://i.ibb.co/0KVpNw1/animeflv.png"
+                             class="img-fluid animate__animated animate__zoomIn animate__slow"
+                             alt="Responsive image">
                     </div>
                     <div class="pt-5">
                         <h3>Página Web de Presentación</h3>
@@ -61,10 +58,9 @@
 
                 <div class="col-4 border bg-danger">
                     <div class="my-3">
-                        <img src="https://i.ibb.co/thnzfmD/codelco-500px.png" class="img-fluid"
+                        <img src="https://i.ibb.co/thnzfmD/codelco-500px.png"
+                             class="img-fluid animate__animated animate__zoomIn animate__slow"
                              alt="Responsive image">
-
-<%--                        https://i.ibb.co/hL6XBsC/pagina-web-coorporativa.png--%>
                     </div>
                     <div class="pt-5">
                         <h3>Web Corporativa.</h3>
@@ -80,7 +76,8 @@
 
                 <div class="col-4 border bg-warning">
                     <div class="my-3">
-                        <img src="https://i.ibb.co/xzj5M8b/winpi.png" class="img-fluid"
+                        <img src="https://i.ibb.co/xzj5M8b/winpi.png"
+                             class="img-fluid animate__animated animate__zoomIn animate__slow"
                              alt="Responsive image"/>
 
                         <div class="pt-5">
@@ -168,6 +165,13 @@
 ></script>
 <!-- INTEGRACION  TAREA JS2 CAMBIO DE FONDO EN MENU AL PASAR CLIC ENCIMA -->
 <script src="${pageContext.request.contextPath}/res/js/colorMenu.js"></script>
+<script type="text/javascript">
+    let image = document.getElementById("zoom1")
+    zoom1.addEventListener("mouseover", function () {
+        zoom1.classList.add(zoomIn);
+        zoom1.classList.remove(zoomOut)
+    });
+</script>
 </body>
 </html>
 
