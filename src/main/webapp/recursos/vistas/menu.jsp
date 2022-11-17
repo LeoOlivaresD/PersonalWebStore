@@ -24,32 +24,11 @@
     </li>
 
     <li class="nav-item bg-primary">
-        <a class="nav-link Inicio text-white" href="${pageContext.request.contextPath}/usuario/crear">Registrarse</a>
+        <a class="nav-link  text-white" href="${pageContext.request.contextPath}/usuario/crear">Registrarse</a>
     </li>
 
-    <li class="nav-item dropdown ">
-        <a class="nav-link dropdown-toggle text-white bg-primary"
-           data-toggle="dropdown"
-           href="#"
-           role="button"
-           aria-haspopup="true"
-           aria-expanded="false"
-        >Tipos de Web</a
-        >
-        <div class="dropdown-menu bg-primary">
-            <a class="dropdown-item text-white" href="${pageContext.request.contextPath}/tiposDeWebs"
-            >Web institucional</a
-            >
-            <a class="dropdown-item text-white" href="${pageContext.request.contextPath}/tiposDeWebs"
-            >Tienda Online</a
-            >
-            <a class="dropdown-item text-white" href="${pageContext.request.contextPath}/tiposDeWebs"
-            >Promociones</a
-            >
-            <a class="dropdown-item text-white" href="${pageContext.request.contextPath}/tiposDeWebs"
-            >Comienza Ahora</a
-            >
-        </div>
+    <li class="nav-item bg-primary">
+        <a class="nav-link text-white" href="${pageContext.request.contextPath}/tiposDeWebs">Tipos de Web</a>
     </li>
     <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle text-white bg-primary"

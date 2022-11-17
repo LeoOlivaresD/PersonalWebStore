@@ -7,24 +7,20 @@
             rel="stylesheet"
             href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
             integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
-            crossorigin="anonymous"
-    />
+            crossorigin="anonymous"/>
+
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <!--Animaciones -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <!-- COLOR DE FONDO CON CSS -->
     <link rel="stylesheet" href="${pageContext.request.contextPath}/res/css/estilos.css"/>
 </head>
-<
 <body>
 
 <header>
     <div class="container">
-        <div
-                class="container mx-auto row col-12 text-white justify-content-center"
-        >
-            <h1 class="animate__animated animate__delay-1s animate__pulse" id="titulo"><b>BIENVENIDO A PERSONAL WEB STORE</b></h1>
-
+        <div class="container mx-auto row col-12 text-white justify-content-center">
+            <h1 class="animate__animated animate__slow animate__pulse" id="titulo"><b>BIENVENIDO A PERSONAL WEB STORE</b></h1>
         </div>
     </div>
     <br/>
@@ -69,7 +65,7 @@
             las mejores tecnologías del mercado para asegurar un exito seguro.
         </p>
     </div>
-    <section >
+    <section>
         <!-- IMAGENES DE EJEMPLO DE DISEÑOS WEB -->
         <br/>
         <div class="container row mx-auto">
@@ -77,29 +73,25 @@
                 <img
                         src="https://i.ibb.co/VJPj9Tn/kisspng-online-shopping-computer-icons-e-commerce-business-online-shop-5ac3868fc83cc3-97194906152276.png"
                         class="img-fluid"
-                        alt="Responsive image"
-                />
+                        alt="Responsive image"/>
             </div>
             <div class="col-6 col-sm-3 animate__animated animate__slower animate__delay-1s  animate__flip">
                 <img
                         src="https://i.ibb.co/R9Vpk1f/tienda-online-para-principiantes-1-removebg-preview.png"
                         class="img-fluid"
-                        alt="Responsive image"
-                />
+                        alt="Responsive image"/>
             </div>
             <div class="col-6 col-sm-3 animate__animated animate__slower animate__delay-2s  animate__flip">
                 <img
                         src="https://i.ibb.co/48fxykp/ecommerce-removebg-preview.png"
                         class="img-fluid"
-                        alt="Responsive image"
-                />
+                        alt="Responsive image"/>
             </div>
             <div class="col-6 col-sm-3 animate__animated animate__slower animate__delay-3s  animate__flip">
                 <img
                         src="https://i.ibb.co/mD1Nx3n/tienda-online-removebg-preview.png"
                         class="img-fluid"
-                        alt="Responsive image"
-                />
+                        alt="Responsive image"/>
             </div>
         </div>
     </section>
@@ -127,22 +119,21 @@
 <script
         src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-        crossorigin="anonymous"
-></script>
+        crossorigin="anonymous">
+
+</script>
 <script
         src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
         integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-        crossorigin="anonymous"
-></script>
+        crossorigin="anonymous">
+
+</script>
 <script
         src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
         integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
-        crossorigin="anonymous"
-></script>
+        crossorigin="anonymous">
 
-<!-- INTEGRACION TAREA JS ALERTA -->
-<script src="${pageContext.request.contextPath}/res/js/alerta.js"></script>
-
+</script>
 <!-- INTEGRACION  TAREA JS2 CAMBIO DE FONDO EN MENU AL PASAR CLIC ENCIMA -->
 <script src="${pageContext.request.contextPath}/res/js/colorMenu.js"></script>
 </body>
