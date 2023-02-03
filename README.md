@@ -1,4 +1,5 @@
 [![Screenshot-144.png](https://i.postimg.cc/9MqB2t1T/Screenshot-144.png)](https://postimg.cc/5YbzqzhN)
+
 # PersonalWebStore
 Empresa dedicada a la elaboración de sitios webs según la necesidad del cliente
 Nombre: Leonardo Olivares
@@ -14,8 +15,13 @@ usuario: user , contraseña: 1234 tipo ADMIN
 usuario: leo , contraseña: 1234 tipo ADMIN.
 A continuacion dejare algunas screenshots donde se pueden apreciar las secciones de las paginas con aotorizacion de acceso.
 [![Screenshot-145.png](https://i.postimg.cc/cCyBLg5z/Screenshot-145.png)](https://postimg.cc/nj2DdzxK)
+
 [![Screenshot-146.png](https://i.postimg.cc/nr4YjFyh/Screenshot-146.png)](https://postimg.cc/vxm6Cs8J)
+
 [![Screenshot-147.png](https://i.postimg.cc/kMKyhs2P/Screenshot-147.png)](https://postimg.cc/RqCfWc1g)
+
 [![Screenshot-148.png](https://i.postimg.cc/135cXZJy/Screenshot-148.png)](https://postimg.cc/TpFWNFzs)
+
 [![Screenshot-149.png](https://i.postimg.cc/FsvxtSSd/Screenshot-149.png)](https://postimg.cc/nMdmBC0p)
+
 [![Screenshot-150.png](https://i.postimg.cc/DycP7zQC/Screenshot-150.png)](https://postimg.cc/CzzqNSQD)
