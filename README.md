@@ -13,7 +13,9 @@ Entre esas paginas tenemos la seccion de "registrar usuario", "tipos de web" don
 En cuanto a la navegacion completa de la aplicacion necesitaremos entrar con un usuario que tenga rol de ADMIN, el cual nos permitira revelar principalmente todas las consultas realizadas a travez de nuestro formulario de contacto y a demas ver la lista de usuarios registrados en nuestra base de datos.Estos usuario son 2:
 usuario: user , contraseña: 1234 tipo ADMIN
 usuario: leo , contraseña: 1234 tipo ADMIN.
-A continuacion dejare algunas screenshots donde se pueden apreciar las secciones de las paginas con aotorizacion de acceso.
+
+A continuacion dejare algunas screenshots donde se pueden apreciar las secciones de las paginas con autorizacion de acceso.
+
 [![Screenshot-145.png](https://i.postimg.cc/cCyBLg5z/Screenshot-145.png)](https://postimg.cc/nj2DdzxK)
 
 [![Screenshot-146.png](https://i.postimg.cc/nr4YjFyh/Screenshot-146.png)](https://postimg.cc/vxm6Cs8J)
