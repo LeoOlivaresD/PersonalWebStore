@@ -53,7 +53,7 @@ public class ContactoController {
         } else {
             contactoService.create(contacto);
         }
-        return new ModelAndView("redirect:/formulario/listar");
+        return new ModelAndView("redirect:/");
     }
     @RequestMapping(value = "/delete/{id}" , method = RequestMethod.GET)
     public ModelAndView deleteQuary(@PathVariable Integer id){

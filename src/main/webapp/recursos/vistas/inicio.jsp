@@ -39,7 +39,6 @@
 <div class="container row col-12 justify-content-center animate__animated animate__slideInLeft animate__slow">
     <%@include file="menu.jsp" %>
 </div>
-
 <div class="container row col-12 justify-content-center"></div>
 <main>
     <br/>
@@ -48,7 +47,7 @@
     <div class="container row mx-auto text-white justify-content-center">
         <br/>
         <p class="col-12">
-            Nuestra compañia se encarga de llevar  tu proyecto a la red para
+            Nuestra compañía se encarga de llevar tu proyecto a la red para
             que este tenga mayor visibilidad en el mercado.
         </p>
 
@@ -110,7 +109,7 @@
         </p>
     </div>
     <br/>
-    <div class="container row col-12 text-white">
+    <div class="container row col-12 text-white justify-content-center">
         <b>Autor Leonardo Olivares / cspraword@gmail.com</b>
     </div>
 </footer>
