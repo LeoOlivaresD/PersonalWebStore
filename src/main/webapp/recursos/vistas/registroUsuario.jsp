@@ -27,7 +27,7 @@
     <section>
         <div class="container">
 
-            <%--    Formulario--%>
+            <%--Formulario--%>
             <spring:url value="/usuario/save" var="saveURL" htmlEscape="true"/>
             <form:form modelAttribute="usuarioForm" method="post" action="${saveURL}" cssClass="form">
                 <form:hidden path="idUsuario"/>

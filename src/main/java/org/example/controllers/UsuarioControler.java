@@ -1,5 +1,4 @@
 package org.example.controllers;
-
 import org.example.models.entities.RegistroUsuario;
 import org.example.models.services.RegistroUsuarioService;
 import org.springframework.beans.factory.annotation.Autowired;
