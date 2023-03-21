@@ -4,26 +4,28 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-  }
+}
 
-  .plug {
+.plug {
     width: 30%;
-  }
-  #titulo {
+}
+
+#titulo {
     font-size: 3rem;
     text-align: center;
-  }
-#menu{
-font-size: 1.3rem;
+}
+
+#menu {
+    font-size: 1.3rem;
 }
 
 main p {
-font-size: 1.2rem;
+    font-size: 1.2rem;
 }
 
 .centrar {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-  height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
 }
